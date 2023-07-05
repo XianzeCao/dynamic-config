@@ -1,3 +1,3 @@
-# dynamic-config
+# Dynamic-Config
 
-Dynamic Config Center utilizing Zookeeper
+Dynamic Config Center based on Zookeeper
