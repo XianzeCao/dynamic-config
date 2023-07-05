@@ -1,0 +1,10 @@
+#org.springframework.boot.env.EnvironmentPostProcessor=\
+#  CustomEnvironmentPostProcessor
+
+
+org.springframework.context.ApplicationContextInitializer=\
+  com.zaccao.dynamicconfig.config.ZookeeperApplicationContextInitializer
+
+com.zaccao.dynamicconfig.config.PropertySourceLocator=\
+  com.zaccao.dynamicconfig.config.ZookeeperPropertySourceLocator,\
+  com.zaccao.dynamicconfig.config.LocalCustomPropertySourceLocator
