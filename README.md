@@ -1,3 +1,3 @@
 # Dynamic-Config
 
-Dynamic Config Center based on Zookeeper
+Centralized platform that allows for the dynamic management and distribution of application configuration settings. Based on Zookeeper
